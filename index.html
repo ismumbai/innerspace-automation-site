@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="InnerSpace provides customised WhatsApp Business automation, AI-assisted customer enquiries, lead qualification and sales team notifications.">
+  <title>InnerSpace | WhatsApp Business Automation</title>
+  <style>
+    :root {
+      --navy: #142b45;
+      --blue: #176b87;
+      --teal: #dff3ef;
+      --light: #f5f8fb;
+      --text: #263445;
+      --muted: #5b6878;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+      background: var(--white);
+    }
+    header {
+      background: var(--white);
+      border-bottom: 1px solid #e5eaf0;
+      padding: 18px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      font-size: 25px;
+      font-weight: 800;
+      color: var(--navy);
+      letter-spacing: 1px;
+    }
+    .brand span { color: var(--blue); }
+    nav a {
+      color: var(--navy);
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 85px 8%;
+      background: linear-gradient(130deg, #142b45, #176b87);
+      color: white;
+      text-align: center;
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #b8e8e1;
+    }
+    h1 {
+      font-size: clamp(34px, 5vw, 54px);
+      line-height: 1.15;
+      max-width: 850px;
+      margin: 18px auto;
+    }
+    .hero p {
+      max-width: 740px;
+      margin: 0 auto 28px;
+      font-size: 18px;
+      color: #edf7fa;
+    }
+    .button {
+      display: inline-block;
+      background: white;
+      color: var(--navy);
+      padding: 13px 24px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 65px 8%; }
+    .light { background: var(--light); }
+    .section-title {
+      color: var(--navy);
+      text-align: center;
+      font-size: 32px;
+      line-height: 1.25;
+      margin: 0 0 15px;
+    }
+    .intro {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 35px;
+      color: var(--muted);
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border: 1px solid #e3eaf0;
+      border-radius: 12px;
+    }
+    .card h3 { color: var(--blue); margin-top: 0; }
+    .card p { margin-bottom: 0; color: var(--muted); }
+    .steps {
+      max-width: 850px;
+      margin: 30px auto 0;
+      padding-left: 24px;
+    }
+    .steps li { padding: 8px 0 8px 8px; }
+    .notice {
+      max-width: 900px;
+      margin: 25px auto 0;
+      padding: 20px;
+      background: var(--teal);
+      border-radius: 9px;
+    }
+    .contact {
+      text-align: center;
+      background: var(--navy);
+      color: white;
+    }
+    .contact h2 { color: white; }
+    .contact p { max-width: 720px; margin: 15px auto; }
+    .contact a { color: white; }
+    footer {
+      background: #0c1d30;
+      color: #dce5ed;
+      padding: 25px 7%;
+      text-align: center;
+      font-size: 13px;
+    }
+    footer a { color: #dce5ed; margin: 0 8px; }
+    .legal {
+      max-width: 1000px;
+      margin: 0 auto;
+      overflow-wrap: anywhere;
+    }
+    .legal h3 { color: var(--blue); margin-top: 28px; }
+    @media (max-width: 600px) {
+      header { padding: 18px 5%; }
+      nav a { margin-left: 0; margin-right: 12px; }
+      .hero { padding: 65px 6%; }
+      section { padding: 48px 6%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">InnerSpace<span>.</span></div>
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="eyebrow">Business Communication Solutions</div>
+      <h1>Smarter Customer Conversations with WhatsApp Automation</h1>
+      <p>
+        Practical automation solutions to help businesses manage customer
+        enquiries, organise leads and connect their teams with the customers
+        who need attention.
+      </p>
+      <a class="button" href="#services">Explore Our Services</a>
+    </div>
+
+    <section id="about">
+      <h2 class="section-title">About InnerSpace Automation</h2>
+      <p class="intro">
+        InnerSpace develops customised business workflows that help reduce
+        repetitive work and make customer enquiry management more organised.
+        Solutions can be configured around a business's products, services
+        and sales process.
+      </p>
+    </section>
+
+    <section id="services" class="light">
+      <h2 class="section-title">Our Services</h2>
+      <p class="intro">
+        Flexible automation designed around the needs of each business.
+      </p>
+      <div class="cards">
+        <article class="card">
+          <h3>WhatsApp Enquiry Management</h3>
+          <p>
+            Organise incoming customer enquiries and provide automated
+            responses to common questions.
+          </p>
+        </article>
+        <article class="card">
+          <h3>AI-Assisted Responses</h3>
+          <p>
+            Use configured AI workflows to understand enquiries and help
+            customers with relevant next steps.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Lead Qualification</h3>
+          <p>
+            Collect relevant details such as customer requirements, location,
+            product interest and budget to help prioritise enquiries.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Customer Record Management</h3>
+          <p>
+            Organise enquiry details and conversation records in business
+            systems configured for the service.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Sales Team Notifications</h3>
+          <p>
+            Notify the appropriate team when an enquiry needs personal
+            attention or follow-up.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Business Workflow Automation</h3>
+          <p>
+            Connect supported business tools to reduce repetitive manual
+            tasks and improve consistency.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <h2 class="section-title">How It Works</h2>
+      <p class="intro">
+        Each workflow is planned around the business's requirements and
+        configured with appropriate access and permissions.
+      </p>
+      <ol class="steps">
+        <li><strong>Understand the business:</strong> Identify enquiry types, customer needs and existing processes.</li>
+        <li><strong>Configure the workflow:</strong> Set up relevant responses, information collection and routing rules.</li>
+        <li><strong>Organise enquiries:</strong> Send relevant information to the business systems configured for the service.</li>
+        <li><strong>Support the team:</strong> Route enquiries for human attention when required.</li>
+        <li><strong>Review and improve:</strong> Refine the workflow based on agreed business requirements.</li>
+      </ol>
+      <div class="notice">
+        <strong>Human support remains important.</strong>
+        Automated responses support the business team; staff can handle
+        enquiries that require personal judgement or assistance.
+      </div>
+    </section>
+
+    <section id="privacy" class="light">
+      <div class="legal">
+        <h2 class="section-title">Privacy Policy</h2>
+        <p><strong>Last updated:</strong> 7 October 2026</p>
+        <p>
+          InnerSpace respects the privacy of customers and businesses using
+          its automation services. This policy explains how information may
+          be handled when a business uses a configured customer communication
+          workflow.
+        </p>
+
+        <h3>Information handled</h3>
+        <p>
+          Depending on the workflow, information may include a customer's
+          name, phone number, messages, product interest, location, budget
+          and other details voluntarily provided during an enquiry.
+        </p>
+
+        <h3>How information is used</h3>
+        <p>
+          Information is used to respond to enquiries, understand customer
+          requirements, organise leads, maintain relevant business records,
+          notify authorised staff and support requested follow-up.
+        </p>
+
+        <h3>Service providers and sharing</h3>
+        <p>
+          A configured workflow may process information through the
+          WhatsApp Business Platform and other business tools selected for
+          the service, such as AI or record-management systems. Information
+          should be shared only as needed to operate the requested workflow
+          and subject to the applicable service terms and permissions.
+        </p>
+
+        <h3>Retention and security</h3>
+        <p>
+          Information may be retained in the systems configured for a
+          business. Access, retention and deletion should be managed
+          according to the business's requirements, applicable law and
+          relevant provider policies. Appropriate access controls should
+          be used to protect stored information.
+        </p>
+
+        <h3>Your choices</h3>
+        <p>
+          Customers can contact the business they messaged to ask about
+          their enquiry information or request assistance with their data.
+          Requests will be handled subject to applicable law and the
+          business's responsibilities.
+        </p>
+
+        <h3>Policy updates and contact</h3>
+        <p>
+          This policy may be updated as services and workflows change.
+          For questions about a particular enquiry, please contact the
+          relevant business through its usual customer support channel.
+        </p>
+      </div>
+    </section>
+
+    <section id="terms">
+      <div class="legal">
+        <h2 class="section-title">Service Information</h2>
+        <p>
+          Automation services are configured according to the agreed
+          requirements of each business. Features, integrations and
+          availability depend on the selected systems, permissions and
+          applicable provider terms.
+        </p>
+        <p>
+          Automated or AI-assisted responses may occasionally be incomplete
+          or inaccurate. Businesses should review important information
+          and use human judgement where appropriate. No particular business
+          result is guaranteed.
+        </p>
+        <p>
+          Use of WhatsApp and other integrated services remains subject to
+          their respective terms, policies and technical requirements.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Let's Improve Your Customer Workflow</h2>
+      <p>
+        Looking to organise WhatsApp enquiries, qualify leads or reduce
+        repetitive business tasks? Contact InnerSpace to discuss your
+        requirements.
+      </p>
+      <p>
+        Business website:
+        <a href="https://www.innerspaceindia.com/">www.innerspaceindia.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>InnerSpace | WhatsApp Business Automation Services</p>
+    <p>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Service Information</a>
+      <a href="#contact">Contact</a>
+    </p>
+    <p>© 2026 InnerSpace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
